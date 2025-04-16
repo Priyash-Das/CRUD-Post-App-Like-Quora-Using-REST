@@ -1,13 +1,13 @@
 # 📝 CRUD Post App Like Quora Using REST 
 > Practice Project
 
-A simple web app to **create, read, update, and delete posts**, similar to [Quora](https://quora.com). Built with **Express.js**, **EJS templates**, basic **RESTful routes** and **RESTful APIs**. This project is a hands-on practice to understand CRUD operations, routing, middleware, and view templating.
+A simple web app to **create, read, update, and delete posts**, similar to Quora. Built with **Express.js**, **EJS templates**, basic **RESTful routes** and **RESTful APIs**. This project is a hands-on practice to understand CRUD operations, routing, middleware, and view templating.
 
 ---
 
 ## 📹 Video Demo
 
-![Preview](https://)
+👉 [Watch the demo](https://github.com/Priyash-Das/Photos/blob/main/CURD%20using%20REST.mp4)
 
 
 ---
