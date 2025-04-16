@@ -7,7 +7,7 @@ A simple web app to **create, read, update, and delete posts**, similar to [Quor
 
 ## 📹 Video Demo
 
-👉 [Watch the demo](https://)  
+![Preview](https://)
 
 
 ---
