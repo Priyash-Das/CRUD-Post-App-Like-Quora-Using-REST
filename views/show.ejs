@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post in detail</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Here is your post in details:</h2>
+    <p>Post ID : <%= post.id %></p>
+    <div class="post">
+        <h3 class="user">@<%= post.username %></h3>
+        <h3 class="content"><%= post.content %></h3>
+        <% if (post.photoPath) { %>
+            <div class="photo" style="    
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;">
+                <img src="<%= post.photoPath %>" alt="User uploaded image" style="width: 100%; height: auto;">
+                <% if (post.caption) { %>
+                    <p class="caption"><strong>Caption:</strong> <%= post.caption %></p>
+                <% } %>
+            </div>
+        <% } %>
+    </div>
+    <a class="glass-button" href="/posts" style="float: right; position: fixed;
+    bottom: 20px;
+    right: 20px;">Go to Home Page</a>
+</body>
+</html>

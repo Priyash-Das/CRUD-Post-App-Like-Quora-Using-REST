@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h2>Edit your post</h2>
+    <p>Post ID : <%= post.id %></p>
+    <p>Post ID : @<%= post.username %></p>
+    <form method="post" action="/posts/<%= post.id %>?_method=PATCH" enctype="multipart/form-data">
+        <textarea rows="5" cols="100" placeholder="Chenge your post content..." name="content" autocomplete="off"><%= post.content %></textarea>
+        <br><br>
+        <div style="display: flex; justify-content: center; align-items: center;">
+        <% if (post.photoPath) { %>
+            <img src="<%= post.photoPath %>" alt="Current image" style="width: 90px; height: 100px;">
+            <br><br>
+        <% } %>
+        </div>
+        <input type="file" name="photo" accept="image/*">
+        <br><br>
+        <input type="text" placeholder="Enter photo caption..." name="caption" value="<%= post.caption || '' %>" autocomplete="off">
+        <br><br>
+        <button>Submit Post</button>
+    </form>
+</body>
+</html>

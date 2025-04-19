@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new post</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form method="post" action="/posts" enctype="multipart/form-data">
+        <input type="text" placeholder="Enter username..." name="username" autocomplete="off" required>
+        <br><br>
+        <textarea rows="10" cols="100" placeholder="Post content..." name="content" autocomplete="off" required></textarea>
+        <br><br>
+        <input type="text" placeholder="Enter photo caption..." name="caption" autocomplete="off">
+        <br><br>
+        <input type="file" name="photo" accept="image/*">
+        <br><br>
+        <button>Submit Post</button>
+    </form>
+</body>
+</html>
