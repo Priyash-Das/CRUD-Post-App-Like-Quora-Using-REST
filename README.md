@@ -63,7 +63,7 @@ A simple web app to **create, read, update, and delete posts**, similar to Quora
 ### 3️⃣ Folder Structure (Views & Entry Point)
 
 ```
-project-root/
+Project-root/
 	 ├──── node_modules/
 	 ├──── public/
 	 │    └──────── css/
