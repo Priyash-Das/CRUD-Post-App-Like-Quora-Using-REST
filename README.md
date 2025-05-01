@@ -7,11 +7,11 @@ A simple web app to **create, read, update, and delete posts**, similar to Quora
 
 ## 📷 Preview
 
-![CRUD Post App Like Quora Using REST]()
+![CRUD Post App Like Quora Using REST](https://github.com/Priyash-Das/Photos/blob/main/CURD%20using%20REST.png)
 
 ---
 
-## 📹 Video Demo
+## 📹 Video Demo (MAIN)
 
 👉 [Watch the demo](https://github.com/Priyash-Das/Photos/blob/main/CURD%20using%20REST.mp4)
 
